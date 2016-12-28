@@ -10,15 +10,16 @@ UnderlinePosition: -85
 UnderlineWidth: 90
 Ascent: 1556
 Descent: 492
+InvalidEm: 0
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648488
-ModificationTime: 1476453039
+ModificationTime: 1482966505
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -39,127 +40,94 @@ HheadAOffset: 0
 HheadDescent: -483
 HheadDOffset: 0
 OS2Vendor: 'PfEd'
-Lookup: 2 0 0 "'ccmp' Programming glyphs decomposition lookup"  {"'ccmp' Programming glyphs decomposition lookup 1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
-Lookup: 4 0 1 "Programming ligatures lookup"  {"Programming ligatures lookup-1"  } ['liga' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0"  {"'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
-Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0"  {"'ccmp' Glyph Composition/Decomposition lookup 0"  } ['ccmp' ('DFLT' <> 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 1"  {"'locl' Localized Forms in Cyrillic lookup 1"  } ['locl' ('cyrl' <'SRB ' > ) ]
-Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 3"  {"'fina' Terminal Forms in Arabic lookup 3"  } ['fina' ('arab' <'dflt' > ) ]
-Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 4"  {"'medi' Medial Forms in Arabic lookup 4"  } ['medi' ('arab' <'dflt' > ) ]
-Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 5"  {"'init' Initial Forms in Arabic lookup 5"  } ['init' ('arab' <'dflt' > ) ]
-Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 6"  {"'rlig' Required Ligatures in Arabic lookup 6"  } ['rlig' ('arab' <'dflt' > ) ]
-Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 7"  {"'liga' Standard Ligatures in Arabic lookup 7"  } ['liga' ('arab' <'dflt' > ) ]
-Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10"  {"'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution - Dotless Form"  {"Single Substitution - Dotless Form"  } []
-Lookup: 1 0 0 "'case' Case-Sensitive Forms"  {"'case' Case-Sensitive Forms" ("case" ) } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
-Lookup: 6 0 0 "'calt' Programming contextual alteratives lookup"  {"'calt' Programming contextual alternatives lookup 1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
-Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0"  {"'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
-Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1"  {"'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
-Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 2"  {"'mark' Mark Positioning in Arabic lookup 2"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 3"  {"'mark' Mark Positioning in Arabic lookup 3"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 4"  {"'mark' Mark Positioning in Arabic lookup 4"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 5"  {"'mark' Mark Positioning in Arabic lookup 5"  } ['mark' ('arab' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark to Base in Basic"  {"'mark' cedilla"  "'mark' above, below"  } ['mark' ('DFLT' <> 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 257 0 0 "'mark' Zero-Width Marks in Basic"  {"'mark' Zero-Width Marks lookup"  } ['mark' ('DFLT' <> 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
-Lookup: 260 0 0 "'mark' Mark positioning in Lao"  {"'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
-Lookup: 257 8 0 "'rtbd' Mark width in Lao"  {"'rtbd' Mark width in Lao-2"  } ['rtbd' ('lao ' <'dflt' > ) ]
+Lookup: 2 0 0 "'ccmp' Programming glyphs decomposition lookup" { "'ccmp' Programming glyphs decomposition lookup 1"  } ['ccmp' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 4 0 1 "Programming ligatures lookup" { "Programming ligatures lookup-1"  } ['liga' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Latin lookup 0" { "'locl' Localized Forms in Latin lookup 0-1"  } ['locl' ('latn' <'ISM ' 'KSM ' 'LSM ' 'NSM ' 'SKS ' 'SSM ' > ) ]
+Lookup: 6 0 0 "'ccmp' Glyph Composition/Decomposition lookup 0" { "'ccmp' Glyph Composition/Decomposition lookup 0"  } ['ccmp' ('DFLT' <> 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 1" { "'locl' Localized Forms in Cyrillic lookup 1"  } ['locl' ('cyrl' <'SRB ' > ) ]
+Lookup: 1 9 0 "'fina' Terminal Forms in Arabic lookup 3" { "'fina' Terminal Forms in Arabic lookup 3"  } ['fina' ('arab' <'dflt' > ) ]
+Lookup: 1 9 0 "'medi' Medial Forms in Arabic lookup 4" { "'medi' Medial Forms in Arabic lookup 4"  } ['medi' ('arab' <'dflt' > ) ]
+Lookup: 1 9 0 "'init' Initial Forms in Arabic lookup 5" { "'init' Initial Forms in Arabic lookup 5"  } ['init' ('arab' <'dflt' > ) ]
+Lookup: 4 9 1 "'rlig' Required Ligatures in Arabic lookup 6" { "'rlig' Required Ligatures in Arabic lookup 6"  } ['rlig' ('arab' <'dflt' > ) ]
+Lookup: 4 9 1 "'liga' Standard Ligatures in Arabic lookup 7" { "'liga' Standard Ligatures in Arabic lookup 7"  } ['liga' ('arab' <'dflt' > ) ]
+Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 10" { "'dlig' Discretionary Ligatures in Latin lookup 10"  } ['dlig' ('latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution - Dotless Form" { "Single Substitution - Dotless Form"  } []
+Lookup: 1 0 0 "'case' Case-Sensitive Forms" { "'case' Case-Sensitive Forms" ("case") } ['case' ('DFLT' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Programming contextual alteratives lookup" { "'calt' Programming contextual alternatives lookup 1"  } ['calt' ('DFLT' <'dflt' > 'arab' <'dflt' > 'armn' <'dflt' > 'brai' <'dflt' > 'cher' <'dflt' > 'cyrl' <'SRB ' 'dflt' > 'geor' <'dflt' > 'grek' <'dflt' > 'lao ' <'dflt' > 'latn' <'CAT ' 'ESP ' 'GAL ' 'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > 'math' <'dflt' > 'thai' <'dflt' > ) ]
+Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 0" { "'mkmk' Mark to Mark in Arabic lookup 0"  } ['mkmk' ('arab' <'dflt' > ) ]
+Lookup: 262 1 0 "'mkmk' Mark to Mark in Arabic lookup 1" { "'mkmk' Mark to Mark in Arabic lookup 1"  } ['mkmk' ('arab' <'dflt' > ) ]
+Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 2" { "'mark' Mark Positioning in Arabic lookup 2"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 3" { "'mark' Mark Positioning in Arabic lookup 3"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 261 1 0 "'mark' Mark Positioning in Arabic lookup 4" { "'mark' Mark Positioning in Arabic lookup 4"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 260 1 0 "'mark' Mark Positioning in Arabic lookup 5" { "'mark' Mark Positioning in Arabic lookup 5"  } ['mark' ('arab' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark to Base in Basic" { "'mark' cedilla"  "'mark' above, below"  } ['mark' ('DFLT' <> 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 257 0 0 "'mark' Zero-Width Marks in Basic" { "'mark' Zero-Width Marks lookup"  } ['mark' ('DFLT' <> 'cyrl' <'SRB ' 'dflt' > 'grek' <'dflt' > 'latn' <'ISM ' 'KSM ' 'LSM ' 'MOL ' 'NSM ' 'ROM ' 'SKS ' 'SSM ' 'dflt' > ) ]
+Lookup: 260 0 0 "'mark' Mark positioning in Lao" { "'mark' Mark positioning in Lao"  } ['mark' ('lao ' <'dflt' > ) ]
+Lookup: 257 8 0 "'rtbd' Mark width in Lao" { "'rtbd' Mark width in Lao-2"  } ['rtbd' ('lao ' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'calt' Programming contextual alternatives lookup 1"  0 0 0 13
+ChainSub2: glyph "'calt' Programming contextual alternatives lookup 1" 0 0 0 13
  String: 22 equal_equal_equal.liga
  BString: 0 
  FString: 6 equal 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
  String: 22 equal_equal_equal.liga
  BString: 0 
  FString: 17 equal_equal.liga 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
  String: 22 equal_equal_equal.liga
  BString: 0 
  FString: 23 equal_equal_equal.liga 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
  String: 22 equal_equal_equal.liga
  BString: 5 equal
  FString: 0 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
  String: 16 equal_equal.liga
  BString: 5 equal
  FString: 0 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
  String: 22 equal_equal_equal.liga
  BString: 11 slash slash
  FString: 0 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
  String: 16 equal_equal.liga
  BString: 11 slash slash
  FString: 0 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
  String: 16 equal_equal.liga
  BString: 10 numbersign
  FString: 0 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
  String: 22 equal_equal_equal.liga
  BString: 10 numbersign
  FString: 0 
  1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
- String: 14 plus_plus.liga
+  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup"
+ String: 0 
  BString: 0 
- FString: 5 plus 
- 1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
- String: 14 plus_plus.liga
- BString: 14 plus_plus.liga
  FString: 0 
- 1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
- String: 14 plus_plus.liga
+ 0
+ String: 0 
  BString: 0 
- FString: 15 plus_plus.liga 
- 1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
- String: 14 plus_plus.liga
- BString: 4 plus
  FString: 0 
- 1
-  SeqLookup: 0 "'ccmp' Programming glyphs decomposition lookup" 
-EndFPST
-ChainSub2: class "'ccmp' Glyph Composition/Decomposition lookup 0"  4 1 4 3
-  Class: 3 i j
-  Class: 227 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0343 uni0374
-  Class: 244 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C
-  FClass: 3 i j
-  FClass: 227 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0343 uni0374
-  FClass: 244 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C
- 1 0 1
-  ClsList: 1
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Substitution - Dotless Form" 
- 1 0 2
-  ClsList: 1
-  BClsList:
-  FClsList: 3 2
- 1
-  SeqLookup: 0 "Single Substitution - Dotless Form" 
- 1 0 3
-  ClsList: 1
-  BClsList:
-  FClsList: 3 3 2
- 1
-  SeqLookup: 0 "Single Substitution - Dotless Form" 
-  ClassNames: "0"  "1"  "2"  "3"  
-  BClassNames: "0"  
-  FClassNames: "0"  "1"  "2"  "3"  
+ 0
+ String: 0 
+ BString: 1 4
+ FString: 0 
+ 0
+ String: 3 i j
+ BString: 227 gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307 uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni033D uni033E uni033F uni0343 uni0374
+ FString: 244 uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F uni0320 dotbelowcomb uni0324 uni0325 uni0326 uni0327 uni0328 uni0329 uni032A uni032B uni032C uni032D uni032E uni032F uni0330 uni0331 uni0332 uni0333 uni0339 uni033A uni033B uni033C
+ 0
 EndFPST
 TtTable: prep
 PUSHW_2
@@ -2371,18 +2339,36 @@ ShortTable: maxp 16
   3
   1
 EndShort
-LangName: 1033 "" "" "" "DejaVu Sans Code" "" "Version 2.37" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or  or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word +ACIA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the +ACIA-Bitstream Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org. +AAoA" "http://dejavu.sourceforge.net/wiki/index.php/License" 
-Encoding: UnicodeFull
+LangName: 1033 "" "" "" "DejaVu Sans Code" "" "Version 2.37" "" "" "DejaVu fonts team" "" "" "http://dejavu.sourceforge.net" "" "Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.+AAoACgAA-Bitstream Vera Fonts Copyright+AAoA-------------------------------+AAoACgAA-Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved. Bitstream Vera is a trademark of Bitstream, Inc.+AAoACgAA-Permission is hereby granted, free of charge, to any person obtaining a copy of the fonts accompanying this license (+ACIA-Fonts+ACIA) and associated documentation files (the +ACIA-Font Software+ACIA), to reproduce and distribute the Font Software, including without limitation the rights to use, copy, merge, publish, distribute, and/or sell copies of the Font Software, and to permit persons to whom the Font Software is furnished to do so, subject to the following conditions:+AAoACgAA-The above copyright and trademark notices and this permission notice shall be included in all copies of one or more of the Font Software typefaces.+AAoACgAA-The Font Software may be modified, altered, or added to, and in particular the designs of glyphs or characters in the Fonts may be modified and additional glyphs or  or characters may be added to the Fonts, only if the fonts are renamed to names not containing either the words +ACIA-Bitstream+ACIA or the word +ACIA-Vera+ACIA.+AAoACgAA-This License becomes null and void to the extent applicable to Fonts or Font Software that has been modified and is distributed under the +ACIA-Bitstream Vera+ACIA names.+AAoACgAA-The Font Software may be sold as part of a larger software package but no copy of one or more of the Font Software typefaces may be sold by itself.+AAoACgAA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL BITSTREAM OR THE GNOME FOUNDATION BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE.+AAoACgAA-Except as contained in this notice, the names of Gnome, the Gnome Foundation, and Bitstream Inc., shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Font Software without prior written authorization from the Gnome Foundation or Bitstream Inc., respectively. For further information, contact: fonts at gnome dot org. +AAoA" "http://dejavu.sourceforge.net/wiki/index.php/License"
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL without afii
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114047 33 4
+WinInfo: 1113153 59 18
 BeginPrivate: 0
 EndPrivate
 GridOrder2: 1
 Grid
+-2048 -227 m 0
+ 4096 -227 l 1024
+-2048 1341 m 0
+ 4096 1341 l 1024
+477 2580 m 0
+ 477 -1516 l 1024
+-2048 -43 m 0
+ 4096 -43 l 1024
+-2048 1161 m 0
+ 4096 1161 l 1024
+2377 2580 m 0
+ 2377 -1516 l 1024
+1966 2580 m 0,0,-1
+ 1966 -1516 l 1024
+-2048 562 m 0,2,-1
+ 4096 562 l 1024
+1632 2580 m 0,4,-1
+ 1632 -1516 l 1024
 1 740 m 25,0,-1
  -139 880 l 25,0,0
  1 740 l 25,0,-1
@@ -2390,50 +2376,50 @@ Grid
  1 894 l 25,1,-1
  -139 1034 l 25,0,0
 1 1510 m 9,0,-1
- -139 1650 l 17,0,0
+ -139 1650 l 1041,0,0
 1 1202 m 9,1,-1
- -139 1342 l 17,0,0
+ -139 1342 l 1041,0,0
 1 1818 m 9,1,-1
- -139 1958 l 17,0,0
+ -139 1958 l 1041,0,0
 1 1048 m 9,1,-1
- -139 1188 l 17,0,0
+ -139 1188 l 1041,0,0
 1 1664 m 9,1,-1
- -139 1804 l 17,0,0
+ -139 1804 l 1041,0,0
 1 1356 m 9,1,-1
- -139 1496 l 17,0,0
+ -139 1496 l 1041,0,0
 -139 -352 m 9,0,0
  1 -492 l 25,1,-1
- 141 -632 l 17
+ 141 -632 l 1041
 -139 -198 m 25,0,0
  1 -338 l 25,1,-1
  -139 -198 l 25,0,0
 1 278 m 9,0,-1
- -139 418 l 17,0,0
+ -139 418 l 1041,0,0
 1 -30 m 9,1,-1
- -139 110 l 17,0,0
+ -139 110 l 1041,0,0
 1 586 m 9,1,-1
- -139 726 l 17,0,0
+ -139 726 l 1041,0,0
 1 -184 m 9,1,-1
- -139 -44 l 17,0,0
+ -139 -44 l 1041,0,0
 1 432 m 9,1,-1
- -139 572 l 17,0,0
+ -139 572 l 1041,0,0
 1 124 m 9,1,-1
- -139 264 l 17,0,0
+ -139 264 l 1041,0,0
 1232 -409 m 25,0,0
  1372 -549 l 25,1,-1
  1232 -409 l 25,0,0
 1372 67 m 9,0,-1
- 1232 207 l 17,0,0
+ 1232 207 l 1041,0,0
 1372 -241 m 9,1,-1
- 1232 -101 l 17,0,0
+ 1232 -101 l 1041,0,0
 1372 375 m 9,1,-1
- 1232 515 l 17,0,0
+ 1232 515 l 1041,0,0
 1372 -395 m 9,1,-1
- 1232 -255 l 17,0,0
+ 1232 -255 l 1041,0,0
 1372 221 m 9,1,-1
- 1232 361 l 17,0,0
+ 1232 361 l 1041,0,0
 1372 -87 m 9,1,-1
- 1232 53 l 17,0,0
+ 1232 53 l 1041,0,0
 1232 669 m 25,0,0
  1372 529 l 25,1,-1
  1232 669 l 25,0,0
@@ -2441,56 +2427,56 @@ Grid
  1372 683 l 25,1,-1
  1232 823 l 25,0,0
 1372 1299 m 9,0,-1
- 1232 1439 l 17,0,0
+ 1232 1439 l 1041,0,0
 1372 991 m 9,1,-1
- 1232 1131 l 17,0,0
+ 1232 1131 l 1041,0,0
 1372 1607 m 9,1,-1
- 1232 1747 l 17,0,0
+ 1232 1747 l 1041,0,0
 1372 837 m 9,1,-1
- 1232 977 l 17,0,0
+ 1232 977 l 1041,0,0
 1372 1453 m 9,1,-1
- 1232 1593 l 17,0,0
+ 1232 1593 l 1041,0,0
 1372 1145 m 9,1,-1
- 1232 1285 l 17,0,0
+ 1232 1285 l 1041,0,0
 1372 1761 m 9,1,-1
  1232 1901 l 25,0,0
- 1092 2041 l 17,0,0
+ 1092 2041 l 1041,0,0
 1373 -632 m 9,1,-1
- 1233 -492 l 17,0,0
+ 1233 -492 l 1041,0,0
 1079 -492 m 25,0,0
  1219 -632 l 25,1,-1
  1079 -492 l 25,0,0
 603 -632 m 9,0,-1
- 463 -492 l 17,0,0
+ 463 -492 l 1041,0,0
 911 -632 m 9,1,-1
- 771 -492 l 17,0,0
+ 771 -492 l 1041,0,0
 295 -632 m 9,1,-1
- 155 -492 l 17,0,0
+ 155 -492 l 1041,0,0
 1065 -632 m 9,1,-1
- 925 -492 l 17,0,0
+ 925 -492 l 1041,0,0
 449 -632 m 9,1,-1
- 309 -492 l 17,0,0
+ 309 -492 l 1041,0,0
 757 -632 m 9,1,-1
- 617 -492 l 17,0,0
+ 617 -492 l 1041,0,0
 1386 1901 m 9,1,-1
- 1246 2041 l 17,0,0
+ 1246 2041 l 1041,0,0
 938 2041 m 25,0,0
  1078 1901 l 25,1,-1
  938 2041 l 25,0,0
 462 1901 m 9,0,-1
- 322 2041 l 17,0,0
+ 322 2041 l 1041,0,0
 770 1901 m 9,1,-1
- 630 2041 l 17,0,0
+ 630 2041 l 1041,0,0
 154 1901 m 9,1,-1
- 14 2041 l 17,0,0
+ 14 2041 l 1041,0,0
 924 1901 m 9,1,-1
- 784 2041 l 17,0,0
+ 784 2041 l 1041,0,0
 308 1901 m 9,1,-1
- 168 2041 l 17,0,0
+ 168 2041 l 1041,0,0
 616 1901 m 9,1,-1
- 476 2041 l 17,0,0
+ 476 2041 l 1041,0,0
 0 1901 m 9,1,-1
- -140 2041 l 17,0,0
+ -140 2041 l 1041,0,0
 -140 2041 m 1,1,-1
  1373 2041 l 1,2,-1
  1373 -632 l 1,3,-1
@@ -2502,7 +2488,7 @@ Grid
  0 -492 l 1,8,-1
  0 1901 l 1,5,-1
 EndSplineSet
-AnchorClass2: "cedilla"  "'mark' cedilla" "lao-below"  "'mark' Mark positioning in Lao" "lao-above"  "'mark' Mark positioning in Lao" "above"  "'mark' above, below" "below"  "'mark' above, below" "rtl-above"  "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above"  "'mark' Mark Positioning in Arabic lookup 4" "rtl-below"  "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below"  "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark"  "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark"  "'mkmk' Mark to Mark in Arabic lookup 0" 
+AnchorClass2: "cedilla" "'mark' cedilla" "lao-below" "'mark' Mark positioning in Lao" "lao-above" "'mark' Mark positioning in Lao" "above" "'mark' above, below" "below" "'mark' above, below" "rtl-above" "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above" "'mark' Mark Positioning in Arabic lookup 4" "rtl-below" "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below" "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark" "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark" "'mkmk' Mark to Mark in Arabic lookup 0"
 BeginChars: 1114179 3792
 
 StartChar: .notdef
@@ -13109,7 +13095,7 @@ SplineSet
  711 1350 l 1,7,-1
  711 1552 l 1,4,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: copyright
@@ -13780,7 +13766,7 @@ SplineSet
  317 1378 l 1,3,-1
  317 1526 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: degree
@@ -14207,7 +14193,7 @@ SplineSet
  475 1262 l 1,3,-1
  756 1638 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: mu
@@ -14427,7 +14413,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 694 807 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: onesuperior
@@ -14670,7 +14656,7 @@ Fore
 Refer: 2009 8308 N 1 0 0 1 184 -938 2
 Refer: 121 185 N 1 0 0 1 -258 156 2
 Refer: 3733 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: onehalf
@@ -14682,7 +14668,7 @@ Fore
 Refer: 121 185 N 1 0 0 1 -258 156 2
 Refer: 3733 -1 N 1 0 0 1 0 0 2
 Refer: 114 178 N 1 0 0 1 201 -938 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: threequarters
@@ -14694,7 +14680,7 @@ Fore
 Refer: 2009 8308 N 1 0 0 1 184 -938 2
 Refer: 115 179 N 1 0 0 1 -227 156 2
 Refer: 3733 -1 N 1 0 0 1 0 0 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: questiondown
@@ -14889,7 +14875,7 @@ LayerCount: 2
 Fore
 Refer: 34 65 N 1 0 0 1 0 0 2
 Refer: 3730 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Aacute
@@ -14911,7 +14897,7 @@ LayerCount: 2
 Fore
 Refer: 34 65 N 1 0 0 1 0 0 2
 Refer: 3728 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Acircumflex
@@ -14946,7 +14932,7 @@ LayerCount: 2
 Fore
 Refer: 34 65 N 1 0 0 1 0 0 2
 Refer: 3731 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Atilde
@@ -14977,7 +14963,7 @@ LayerCount: 2
 Fore
 Refer: 34 65 N 1 0 0 1 0 0 2
 Refer: 3729 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Adieresis
@@ -15020,7 +15006,7 @@ LayerCount: 2
 Fore
 Refer: 34 65 N 1 0 0 1 0 0 2
 Refer: 3727 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Aring
@@ -15257,7 +15243,7 @@ SplineSet
  37 0 l 1,33,-1
  465 1399 l 1,15,16
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: AE
@@ -15408,7 +15394,7 @@ LayerCount: 2
 Fore
 Refer: 694 807 N 1 0 0 1 100 0 2
 Refer: 36 67 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Egrave
@@ -15421,7 +15407,7 @@ LayerCount: 2
 Fore
 Refer: 38 69 N 1 0 0 1 0 0 2
 Refer: 3730 -1 N 1 0 0 1 18 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Eacute
@@ -15434,7 +15420,7 @@ LayerCount: 2
 Fore
 Refer: 38 69 N 1 0 0 1 0 0 2
 Refer: 3728 -1 N 1 0 0 1 18 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Ecircumflex
@@ -15447,7 +15433,7 @@ LayerCount: 2
 Fore
 Refer: 38 69 N 1 0 0 1 0 0 2
 Refer: 3731 -1 N 1 0 0 1 18 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Edieresis
@@ -15460,7 +15446,7 @@ LayerCount: 2
 Fore
 Refer: 38 69 N 1 0 0 1 0 0 2
 Refer: 3727 -1 N 1 0 0 1 18 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Igrave
@@ -15473,7 +15459,7 @@ LayerCount: 2
 Fore
 Refer: 42 73 N 1 0 0 1 0 0 2
 Refer: 3730 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Iacute
@@ -15486,7 +15472,7 @@ LayerCount: 2
 Fore
 Refer: 42 73 N 1 0 0 1 0 0 2
 Refer: 3728 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Icircumflex
@@ -15512,7 +15498,7 @@ LayerCount: 2
 Fore
 Refer: 42 73 N 1 0 0 1 0 0 2
 Refer: 3731 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Idieresis
@@ -15535,7 +15521,7 @@ LayerCount: 2
 Fore
 Refer: 42 73 N 1 0 0 1 0 0 2
 Refer: 3727 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Eth
@@ -15664,7 +15650,7 @@ LayerCount: 2
 Fore
 Refer: 47 78 N 1 0 0 1 0 0 2
 Refer: 3729 -1 N 1 0 0 1 0 377 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Ograve
@@ -15686,7 +15672,7 @@ LayerCount: 2
 Fore
 Refer: 48 79 N 1 0 0 1 0 0 2
 Refer: 3730 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Oacute
@@ -15708,7 +15694,7 @@ LayerCount: 2
 Fore
 Refer: 48 79 N 1 0 0 1 0 0 2
 Refer: 3728 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Ocircumflex
@@ -15743,7 +15729,7 @@ LayerCount: 2
 Fore
 Refer: 48 79 N 1 0 0 1 0 0 2
 Refer: 3731 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Otilde
@@ -15774,7 +15760,7 @@ LayerCount: 2
 Fore
 Refer: 48 79 N 1 0 0 1 0 0 2
 Refer: 3729 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Odieresis
@@ -15817,7 +15803,7 @@ LayerCount: 2
 Fore
 Refer: 48 79 N 1 0 0 1 0 0 2
 Refer: 3727 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: multiply
@@ -16067,7 +16053,7 @@ LayerCount: 2
 Fore
 Refer: 54 85 N 1 0 0 1 0 0 2
 Refer: 3730 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Uacute
@@ -16089,7 +16075,7 @@ LayerCount: 2
 Fore
 Refer: 54 85 N 1 0 0 1 0 0 2
 Refer: 3728 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Ucircumflex
@@ -16124,7 +16110,7 @@ LayerCount: 2
 Fore
 Refer: 54 85 N 1 0 0 1 0 0 2
 Refer: 3731 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Udieresis
@@ -16167,7 +16153,7 @@ LayerCount: 2
 Fore
 Refer: 54 85 N 1 0 0 1 0 0 2
 Refer: 3727 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Yacute
@@ -16189,7 +16175,7 @@ LayerCount: 2
 Fore
 Refer: 58 89 N 1 0 0 1 0 0 2
 Refer: 3728 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Thorn
@@ -16424,7 +16410,7 @@ LayerCount: 2
 Fore
 Refer: 66 97 N 1 0 0 1 0 0 2
 Refer: 65 96 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: aacute
@@ -16437,7 +16423,7 @@ LayerCount: 2
 Fore
 Refer: 66 97 N 1 0 0 1 0 0 2
 Refer: 116 180 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: acircumflex
@@ -16450,7 +16436,7 @@ LayerCount: 2
 Fore
 Refer: 66 97 N 1 0 0 1 0 0 2
 Refer: 622 710 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: atilde
@@ -16463,7 +16449,7 @@ LayerCount: 2
 Fore
 Refer: 66 97 N 1 0 0 1 0 0 2
 Refer: 640 732 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: adieresis
@@ -16476,7 +16462,7 @@ LayerCount: 2
 Fore
 Refer: 66 97 N 1 0 0 1 0 0 2
 Refer: 104 168 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: aring
@@ -16489,7 +16475,7 @@ LayerCount: 2
 Fore
 Refer: 66 97 N 1 0 0 1 0 0 2
 Refer: 638 730 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ae
@@ -16710,7 +16696,7 @@ LayerCount: 2
 Fore
 Refer: 694 807 N 1 0 0 1 104 0 2
 Refer: 68 99 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: egrave
@@ -16723,7 +16709,7 @@ LayerCount: 2
 Fore
 Refer: 70 101 N 1 0 0 1 0 0 2
 Refer: 65 96 N 1 0 0 1 14 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: eacute
@@ -16736,7 +16722,7 @@ LayerCount: 2
 Fore
 Refer: 70 101 N 1 0 0 1 0 0 2
 Refer: 116 180 N 1 0 0 1 14 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ecircumflex
@@ -16749,7 +16735,7 @@ LayerCount: 2
 Fore
 Refer: 70 101 N 1 0 0 1 0 0 2
 Refer: 622 710 N 1 0 0 1 14 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: edieresis
@@ -16771,7 +16757,7 @@ LayerCount: 2
 Fore
 Refer: 70 101 N 1 0 0 1 0 0 2
 Refer: 104 168 N 1 0 0 1 14 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: igrave
@@ -16784,7 +16770,7 @@ LayerCount: 2
 Fore
 Refer: 241 305 N 1 0 0 1 0 0 2
 Refer: 65 96 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: iacute
@@ -16797,7 +16783,7 @@ LayerCount: 2
 Fore
 Refer: 241 305 N 1 0 0 1 0 0 2
 Refer: 116 180 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: icircumflex
@@ -16821,7 +16807,7 @@ LayerCount: 2
 Fore
 Refer: 241 305 N 1 0 0 1 0 0 2
 Refer: 622 710 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: idieresis
@@ -16844,7 +16830,7 @@ LayerCount: 2
 Fore
 Refer: 241 305 N 1 0 0 1 0 0 2
 Refer: 104 168 N 1 0 0 1 24 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: eth
@@ -17043,7 +17029,7 @@ LayerCount: 2
 Fore
 Refer: 79 110 N 1 0 0 1 0 0 2
 Refer: 640 732 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ograve
@@ -17056,7 +17042,7 @@ LayerCount: 2
 Fore
 Refer: 80 111 N 1 0 0 1 0 0 2
 Refer: 65 96 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: oacute
@@ -17069,7 +17055,7 @@ LayerCount: 2
 Fore
 Refer: 80 111 N 1 0 0 1 0 0 2
 Refer: 116 180 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ocircumflex
@@ -17100,7 +17086,7 @@ LayerCount: 2
 Fore
 Refer: 80 111 N 1 0 0 1 0 0 2
 Refer: 622 710 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: otilde
@@ -17139,7 +17125,7 @@ LayerCount: 2
 Fore
 Refer: 80 111 N 1 0 0 1 0 0 2
 Refer: 640 732 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: odieresis
@@ -17178,7 +17164,7 @@ LayerCount: 2
 Fore
 Refer: 80 111 N 1 0 0 1 0 0 2
 Refer: 104 168 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: divide
@@ -17422,7 +17408,7 @@ LayerCount: 2
 Fore
 Refer: 86 117 N 1 0 0 1 0 0 2
 Refer: 65 96 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uacute
@@ -17435,7 +17421,7 @@ LayerCount: 2
 Fore
 Refer: 86 117 N 1 0 0 1 0 0 2
 Refer: 116 180 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ucircumflex
@@ -17466,7 +17452,7 @@ LayerCount: 2
 Fore
 Refer: 86 117 N 1 0 0 1 0 0 2
 Refer: 622 710 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: udieresis
@@ -17505,7 +17491,7 @@ LayerCount: 2
 Fore
 Refer: 86 117 N 1 0 0 1 0 0 2
 Refer: 104 168 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: yacute
@@ -17518,7 +17504,7 @@ LayerCount: 2
 Fore
 Refer: 90 121 N 1 0 0 1 0 0 2
 Refer: 116 180 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: thorn
@@ -17620,7 +17606,7 @@ LayerCount: 2
 Fore
 Refer: 90 121 N 1 0 0 1 0 0 2
 Refer: 104 168 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Amacron
@@ -17747,7 +17733,7 @@ LayerCount: 2
 Fore
 Refer: 36 67 N 1 0 0 1 0 0 2
 Refer: 3728 -1 N 1 0 0 1 90 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: cacute
@@ -17758,7 +17744,7 @@ LayerCount: 2
 Fore
 Refer: 68 99 N 1 0 0 1 0 0 2
 Refer: 116 180 N 1 0 0 1 90 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Ccircumflex
@@ -17817,7 +17803,7 @@ LayerCount: 2
 Fore
 Refer: 36 67 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 90 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ccaron
@@ -17830,7 +17816,7 @@ LayerCount: 2
 Fore
 Refer: 68 99 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 90 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Dcaron
@@ -17843,7 +17829,7 @@ LayerCount: 2
 Fore
 Refer: 37 68 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 -78 367 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: dcaron
@@ -17869,7 +17855,7 @@ LayerCount: 2
 Fore
 Refer: 3726 -1 N 1 0 0 1 570 -81 2
 Refer: 69 100 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Dcroat
@@ -18099,7 +18085,7 @@ LayerCount: 2
 Fore
 Refer: 38 69 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 36 367 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ecaron
@@ -18112,7 +18098,7 @@ LayerCount: 2
 Fore
 Refer: 70 101 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 35 -5 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Gcircumflex
@@ -18147,7 +18133,7 @@ LayerCount: 2
 Fore
 Refer: 3735 -1 N 1 0 0 1 50 0 2
 Refer: 40 71 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: gbreve
@@ -18160,7 +18146,7 @@ LayerCount: 2
 Fore
 Refer: 661 774 N 1 0 0 1 0 0 2
 Refer: 72 103 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Gdotaccent
@@ -18642,7 +18628,7 @@ LayerCount: 2
 Fore
 Refer: 3736 -1 N 1 0 0 1 0 0 2
 Refer: 42 73 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: dotlessi
@@ -18804,7 +18790,7 @@ SplineSet
  -1 1323 l 1,32,-1
  -1 1493 l 1,21,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ij
@@ -18924,7 +18910,7 @@ SplineSet
  294.42 1323 l 1,31,-1
  294.42 1556 l 1,28,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Jcircumflex
@@ -19215,7 +19201,7 @@ LayerCount: 2
 Fore
 Refer: 3728 -1 N 1 0 0 1 -275 374 2
 Refer: 45 76 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: lacute
@@ -19252,7 +19238,7 @@ LayerCount: 2
 Fore
 Refer: 3728 -1 N 1 0 0 1 -95 374 2
 Refer: 77 108 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Lcommaaccent
@@ -19287,7 +19273,7 @@ LayerCount: 2
 Fore
 Refer: 3726 -1 N 1 0 0 1 174 -147 2
 Refer: 45 76 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: lcaron
@@ -19300,7 +19286,7 @@ LayerCount: 2
 Fore
 Refer: 3726 -1 N 1 0 0 1 416 -71 2
 Refer: 77 108 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Ldot
@@ -19313,7 +19299,7 @@ LayerCount: 2
 Fore
 Refer: 119 183 N 1 0 0 1 352 133.5 2
 Refer: 45 76 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ldot
@@ -19327,7 +19313,7 @@ LayerCount: 2
 Fore
 Refer: 119 183 N 1 0 0 1 471 144 2
 Refer: 77 108 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Lslash
@@ -19569,7 +19555,7 @@ LayerCount: 2
 Fore
 Refer: 47 78 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 42 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ncaron
@@ -19582,7 +19568,7 @@ LayerCount: 2
 Fore
 Refer: 79 110 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 -12 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: napostrophe
@@ -19595,7 +19581,7 @@ LayerCount: 2
 Fore
 Refer: 79 110 N 1 0 0 1 123 0 2
 Refer: 616 700 N 1 0 0 1 -439 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Eng
@@ -20178,7 +20164,7 @@ LayerCount: 2
 Fore
 Refer: 3728 -1 N 1 0 0 1 -75 373 2
 Refer: 51 82 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: racute
@@ -20190,7 +20176,7 @@ LayerCount: 2
 Fore
 Refer: 116 180 N 1 0 0 1 206 7 2
 Refer: 83 114 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Rcommaaccent
@@ -20225,7 +20211,7 @@ LayerCount: 2
 Fore
 Refer: 51 82 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 -60 367 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: rcaron
@@ -20239,7 +20225,7 @@ LayerCount: 2
 Fore
 Refer: 83 114 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 90 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Sacute
@@ -20297,7 +20283,7 @@ LayerCount: 2
 Fore
 Refer: 694 807 N 1 0 0 1 0 0 2
 Refer: 52 83 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: scedilla
@@ -20309,7 +20295,7 @@ LayerCount: 2
 Fore
 Refer: 694 807 N 1 0 0 1 0 0 2
 Refer: 84 115 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Scaron
@@ -20322,7 +20308,7 @@ LayerCount: 2
 Fore
 Refer: 52 83 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: scaron
@@ -20335,7 +20321,7 @@ LayerCount: 2
 Fore
 Refer: 84 115 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Tcommaaccent
@@ -20380,7 +20366,7 @@ LayerCount: 2
 Fore
 Refer: 53 84 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 6 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: tcaron
@@ -20393,7 +20379,7 @@ LayerCount: 2
 Fore
 Refer: 85 116 N 1 0 0 1 0 0 2
 Refer: 3726 -1 N 1 0 0 1 276 24 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Tbar
@@ -20764,7 +20750,7 @@ LayerCount: 2
 Fore
 Refer: 54 85 N 1 0 0 1 0 0 2
 Refer: 638 730 N 1 0 0 1 10 103 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uring
@@ -20777,7 +20763,7 @@ LayerCount: 2
 Fore
 Refer: 86 117 N 1 0 0 1 0 0 2
 Refer: 638 730 N 1 0 0 1 15 -45 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Uhungarumlaut
@@ -20922,7 +20908,7 @@ LayerCount: 2
 Fore
 Refer: 58 89 N 1 0 0 1 0 0 2
 Refer: 3727 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: Zacute
@@ -20983,7 +20969,7 @@ LayerCount: 2
 Fore
 Refer: 59 90 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: zcaron
@@ -20996,7 +20982,7 @@ LayerCount: 2
 Fore
 Refer: 91 122 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: longs
@@ -23495,7 +23481,7 @@ StartChar: uni01C4
 Encoding: 452 452 388
 Width: 2048
 LayerCount: 2
-LCarets2: 1 0 
+LCarets2: 1 0
 Colour: ffff00
 EndChar
 
@@ -23563,7 +23549,7 @@ LayerCount: 2
 Fore
 Refer: 34 65 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni01CE
@@ -23574,7 +23560,7 @@ LayerCount: 2
 Fore
 Refer: 66 97 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni01CF
@@ -23585,7 +23571,7 @@ LayerCount: 2
 Fore
 Refer: 42 73 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni01D0
@@ -23596,7 +23582,7 @@ LayerCount: 2
 Fore
 Refer: 241 305 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni01D1
@@ -23607,7 +23593,7 @@ LayerCount: 2
 Fore
 Refer: 48 79 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni01D2
@@ -23618,7 +23604,7 @@ LayerCount: 2
 Fore
 Refer: 80 111 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni01D3
@@ -23651,7 +23637,7 @@ LayerCount: 2
 Fore
 Refer: 54 85 N 1 0 0 1 0 0 2
 Refer: 3732 -1 N 1 0 0 1 0 373 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni01D4
@@ -23662,7 +23648,7 @@ LayerCount: 2
 Fore
 Refer: 86 117 N 1 0 0 1 0 0 2
 Refer: 623 711 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni01D5
@@ -30131,7 +30117,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 661 774 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: dotaccent
@@ -30141,7 +30127,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 662 775 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ring
@@ -30246,7 +30232,7 @@ SplineSet
  680 1372 680 1372 724 1416 c 128,-1,23
  768 1460 768 1460 768 1524 c 0,12,13
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: ogonek
@@ -30515,7 +30501,7 @@ SplineSet
  713 1309 713 1309 681 1323 c 128,-1,27
  649 1337 649 1337 612 1370 c 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: hungarumlaut
@@ -30525,7 +30511,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 666 779 N 1 0 0 1 0 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni02DE
@@ -59692,7 +59678,7 @@ LayerCount: 2
 Fore
 Refer: 2 33 N 1 0 0 1 -308 0 2
 Refer: 2 33 N 1 0 0 1 308 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni203D
@@ -59817,7 +59803,7 @@ LayerCount: 2
 Fore
 Refer: 3739 -1 N 1 0 0 1 -324.5 0 2
 Refer: 3739 -1 N 1 0 0 1 283.5 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni2048
@@ -59828,7 +59814,7 @@ LayerCount: 2
 Fore
 Refer: 3739 -1 N 1 0 0 1 -324.5 0 2
 Refer: 2 33 N 1 0 0 1 308 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni2049
@@ -59839,7 +59825,7 @@ LayerCount: 2
 Fore
 Refer: 2 33 N 1 0 0 1 -308 0 2
 Refer: 3739 -1 N 1 0 0 1 283.5 0 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni204B
@@ -62748,7 +62734,7 @@ Fore
 Refer: 2013 8312 N 1 0 0 1 201 -938 2
 Refer: 3733 -1 N 1 0 0 1 0 0 2
 Refer: 2012 8311 N 1 0 0 1 -258 156 2
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: uni215F
@@ -62759,7 +62745,7 @@ LayerCount: 2
 Fore
 Refer: 3733 -1 N 1 0 0 1 0 0 2
 Refer: 121 185 N 1 0 0 1 -258 156 2
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni2189
@@ -67479,7 +67465,7 @@ SplineSet
  206.738 -247.167 206.738 -247.167 255 -232 c 0,22,23
  308.5 -215.188 308.5 -215.188 308.5 -68 c 2,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uni222D
@@ -67535,7 +67521,7 @@ SplineSet
  123.223 -205 123.223 -205 173 -205 c 0,11,12
  200.5 -204.972 200.5 -204.972 200.5 -127 c 2,13,-1
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 EndChar
 
 StartChar: therefore
@@ -102516,7 +102502,7 @@ SplineSet
  405 1556 405 1556 584 1556 c 2,25,-1
  776 1556 l 1,4,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures in Latin lookup 10" f i
 EndChar
 
@@ -102617,7 +102603,7 @@ SplineSet
  405 1556 405 1556 584 1556 c 2,21,-1
  1079 1556 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'dlig' Discretionary Ligatures in Latin lookup 10" f l
 EndChar
 
@@ -106039,7 +106025,7 @@ Fore
 Refer: 1213 1619 N 1 0 0 1 -362 300 2
 Refer: 3655 65275 N 1 0 0 1 0 0 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 7" uniFEDF uniFE82
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFEF6
@@ -106055,7 +106041,7 @@ Fore
 Refer: 1213 1619 N 1 0 0 1 -448 300 2
 Refer: 3656 65276 N 1 0 0 1 0 0 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 7" uniFEE0 uniFE82
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFEF7
@@ -106071,7 +106057,7 @@ Fore
 Refer: 1214 1620 N 1 0 0 1 -362 300 2
 Refer: 3655 65275 N 1 0 0 1 0 0 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 7" uniFEDF uniFE84
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFEF8
@@ -106087,7 +106073,7 @@ Fore
 Refer: 1214 1620 N 1 0 0 1 -477 300 2
 Refer: 3656 65276 N 1 0 0 1 0 0 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 7" uniFEE0 uniFE84
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFEF9
@@ -106103,7 +106089,7 @@ Fore
 Refer: 1215 1621 N 1 0 0 1 -312 0 2
 Refer: 3655 65275 N 1 0 0 1 0 0 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 7" uniFEDF uniFE88
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFEFA
@@ -106119,7 +106105,7 @@ Fore
 Refer: 1215 1621 N 1 0 0 1 -312 0 2
 Refer: 3656 65276 N 1 0 0 1 0 0 2
 Ligature2: "'liga' Standard Ligatures in Arabic lookup 7" uniFEE0 uniFE88
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFEFB
@@ -106151,7 +106137,7 @@ SplineSet
  1054 834 l 2,0,1
 EndSplineSet
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 6" uniFEDF uniFE8E
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFEFC
@@ -106189,7 +106175,7 @@ SplineSet
  830 284 830 284 831 316 c 9,0,1
 EndSplineSet
 Ligature2: "'rlig' Required Ligatures in Arabic lookup 6" uniFEE0 uniFE8E
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFEFF
@@ -109023,51 +109009,32 @@ StartChar: equal_equal.liga
 Encoding: 1114165 -1 3778
 Width: 2466
 Flags: W
-TtInstrs:
-NPUSHB
- 12
- 4
- 160
- 6
- 2
- 160
- 0
- 8
- 5
- 1
- 4
- 0
- 8
-SRP0
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rnd,grey]
-SHP[rp2]
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MDRP[rp0,rnd,grey]
-MIRP[min,rnd,grey]
-MDRP[rp0,rnd,grey]
-MIRP[min,rnd,grey]
-IUP[y]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-88 524 m 1,0,-1
- 2378 524 l 5,1,-1
- 2378 352 l 5,2,-1
- 88 352 l 1,3,-1
- 88 524 l 1,0,-1
-88 930 m 1,4,-1
- 2378 930 l 5,5,-1
- 2378 760 l 5,6,-1
- 88 760 l 1,7,-1
- 88 930 l 1,4,-1
+1057 524 m 1,0,-1
+ 1057 352 l 1,1,-1
+ 88 352 l 1,2,-1
+ 88 524 l 1,3,-1
+ 1057 524 l 1,0,-1
+1233 352 m 1,9,-1
+ 1233 524 l 5,10,-1
+ 2378 524 l 1,6,-1
+ 2378 352 l 1,7,-1
+ 1233 352 l 1,9,-1
+1057 930 m 1,11,-1
+ 1057 760 l 1,12,-1
+ 88 760 l 1,13,-1
+ 88 930 l 1,14,-1
+ 1057 930 l 1,11,-1
+1233 760 m 1,16,-1
+ 1233 930 l 1,17,-1
+ 2378 930 l 1,18,-1
+ 2378 760 l 1,19,-1
+ 1233 760 l 1,16,-1
 EndSplineSet
 MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" equal equal
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" equal equal
 EndChar
 
@@ -109162,7 +109129,7 @@ SplineSet
  88 760 l 1,19,-1
  88 930 l 1,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" exclam equal
 EndChar
 
@@ -109402,7 +109369,7 @@ SplineSet
  504 104 l 1,9,-1
  88 520 l 9,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" less hyphen
 EndChar
 
@@ -109469,19 +109436,19 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-2378 520 m 21,0,-1
- 1962 104 l 5,1,-1
- 1872 194 l 5,2,-1
- 2157 479 l 29,3,-1
- 88 479 l 5,4,-1
- 88 643 l 5,5,-1
- 2157 643 l 29,6,-1
- 1872 928 l 5,7,-1
- 1962 1018 l 5,8,-1
- 2378 602 l 13,9,-1
- 2378 520 l 21,0,-1
+2378 520 m 17,0,-1
+ 1962 104 l 1,1,-1
+ 1872 194 l 1,2,-1
+ 2157 479 l 25,3,-1
+ 88 479 l 1,4,-1
+ 88 643 l 1,5,-1
+ 2157 643 l 25,6,-1
+ 1872 928 l 1,7,-1
+ 1962 1018 l 1,8,-1
+ 2378 602 l 9,9,-1
+ 2378 520 l 17,0,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" hyphen greater
 EndChar
 
@@ -109615,99 +109582,8 @@ EndSplineSet
 Ligature2: "Programming ligatures lookup-1" greater equal
 EndChar
 
-StartChar: plus_plus.liga
-Encoding: 1114173 -1 3786
-Width: 2466
-Flags: W
-TtInstrs:
-NPUSHB
- 29
- 1
- 17
- 161
- 3
- 19
- 15
- 160
- 6
- 10
- 14
- 161
- 8
- 12
- 20
- 5
- 26
- 3
- 7
- 28
- 0
- 8
- 19
- 11
- 28
- 16
- 12
- 26
- 14
- 20
-SRP0
-MDRP[rp0,rnd,grey]
-MIRP[rp0,rnd,grey]
-ALIGNRP
-MIRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MIRP[rp0,rnd,grey]
-ALIGNRP
-MIRP[rp0,rnd,grey]
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MIRP[rp0,rnd,grey]
-ALIGNRP
-ALIGNRP
-MIRP[rp0,rnd,grey]
-ALIGNRP
-ALIGNRP
-MIRP[rp0,rnd,grey]
-ALIGNRP
-IUP[y]
-EndTTInstrs
-LayerCount: 2
-Fore
-SplineSet
-1677 727 m 5,0,-1
- 1677 1171 l 5,1,-1
- 1845 1171 l 5,2,-1
- 1845 727 l 5,3,-1
- 2290 727 l 5,4,-1
- 2290 557 l 5,5,-1
- 1845 557 l 5,6,-1
- 1845 113 l 5,7,-1
- 1677 113 l 5,8,-1
- 1677 557 l 5,9,-1
- 788 557 l 1,10,-1
- 788 113 l 1,11,-1
- 620 113 l 1,12,-1
- 620 557 l 1,13,-1
- 176 557 l 1,14,-1
- 176 727 l 1,15,-1
- 620 727 l 1,16,-1
- 620 1171 l 1,17,-1
- 788 1171 l 1,18,-1
- 788 727 l 1,19,-1
- 1677 727 l 5,0,-1
-EndSplineSet
-MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" plus plus
-Ligature2: "Programming ligatures lookup-1" plus plus
-EndChar
-
 StartChar: colon_colon.liga
-Encoding: 1114174 -1 3787
+Encoding: 1114174 -1 3786
 Width: 2466
 Flags: W
 TtInstrs:
@@ -109785,12 +109661,12 @@ SplineSet
  701 0 l 1,15,-1
  701 305 l 1,12,-1
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" colon colon
 EndChar
 
 StartChar: hyphen_hyphen_greater.liga
-Encoding: 1114175 -1 3788
+Encoding: 1114175 -1 3787
 Width: 3699
 Flags: W
 TtInstrs:
@@ -109864,12 +109740,12 @@ SplineSet
  3611 602 l 13,9,-1
  3611 520 l 21,0,-1
 EndSplineSet
-LCarets2: 2 0 0 
+LCarets2: 2 0 0
 Ligature2: "Programming ligatures lookup-1" hyphen hyphen greater
 EndChar
 
 StartChar: less_hyphen_hyphen.liga
-Encoding: 1114176 -1 3789
+Encoding: 1114176 -1 3788
 Width: 3699
 Flags: W
 TtInstrs:
@@ -109937,7 +109813,7 @@ Ligature2: "Programming ligatures lookup-1" less hyphen hyphen
 EndChar
 
 StartChar: less_exclam_hyphen_heyphen.liga
-Encoding: 1114177 -1 3790
+Encoding: 1114177 -1 3789
 Width: 4932
 Flags: W
 TtInstrs:
@@ -110068,85 +109944,76 @@ Ligature2: "Programming ligatures lookup-1" less exclam hyphen hyphen
 EndChar
 
 StartChar: asciitilde_equal.liga
-Encoding: 1114178 -1 3791
+Encoding: 1114178 -1 3790
 Width: 2466
 Flags: W
-TtInstrs:
-NPUSHB
-23
-4
-160
-5
-20
-160
-19
-1
-0
-160
-2
-3
-34
-4
-5
-1
-3
-2
-20
-19
-0
-3
-3
-34
-SRP0
-MDRP[rp0,rnd,grey]
-SLOOP
-ALIGNRP
-MDRP[rp0,rnd,grey]
-SLOOP
-ALIGNRP
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MIRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rp0,rnd,grey]
-MIRP[rnd,grey]
-MDRP[rp0,rnd,grey]
-MIRP[rnd,grey]
-IUP[y]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-88 524 m 1,0,-1
- 2378 524 l 1,1,-1
- 2378 352 l 1,2,-1
- 88 352 l 1,3,-1
- 88 524 l 1,0,-1
-2378 1024.45 m 5,4,-1
- 2378 846 l 5,5,6
- 2215.53 757.492 2215.53 757.492 2060.64 716.25 c 132,-1,7
- 1905.72 675 1905.72 675 1734.57 675 c 4,8,9
- 1557.51 675 1557.51 675 1294.75 751.5 c 4,10,11
- 1246.82 765.454 1246.82 765.454 1223.25 772.5 c 4,12,13
- 1048.25 824.817 1048.25 824.817 944.842 841.5 c 4,14,15
- 833.262 859.5 833.262 859.5 722.766 859.5 c 4,16,17
- 551.604 859.5 551.604 859.5 398.858 815.25 c 132,-1,18
- 246.111 770.998 246.111 770.998 88 675 c 5,19,-1
- 88 851.95 l 5,20,21
- 256.95 941.952 256.95 941.952 415.107 983.2 c 132,-1,22
- 573.27 1024.45 573.27 1024.45 753.098 1024.45 c 4,23,24
- 867.923 1024.45 867.923 1024.45 976.258 1007.95 c 4,25,26
- 1115.93 986.678 1115.93 986.678 1247.08 943.45 c 4,27,28
- 1268.4 936.425 1268.4 936.425 1316.41 920.95 c 4,29,30
- 1567.74 839.95 1567.74 839.95 1769.23 839.95 c 4,31,32
- 1920.89 839.95 1920.89 839.95 2069.31 884.95 c 132,-1,33
- 2217.74 929.95 2217.74 929.95 2378 1024.45 c 5,4,-1
+88 479 m 1,0,-1
+ 2157 479 l 1,1,-1
+ 1966 284 l 1,2,-1
+ 88 284 l 1,3,-1
+ 88 479 l 1,0,-1
+88 643 m 1,4,-1
+ 88 836 l 1,5,-1
+ 1966 836 l 1,6,-1
+ 2157 643 l 1,7,-1
+ 88 643 l 1,4,-1
+2157 643 m 1,8,-1
+ 88 643 l 1,9,-1
+ 2157 643 l 1,10,-1
+ 1632 1160 l 1,11,-1
+ 1632 1342 l 1,12,-1
+ 2378 602 l 1,13,-1
+ 2378 520 l 1,14,-1
+ 1632 -228 l 1,15,-1
+ 1632 -42 l 1,16,-1
+ 2157 479 l 1,17,-1
+ 88 479 l 1,18,-1
+ 2157 479 l 1029,19,-1
 EndSplineSet
-LCarets2: 1 0 
-Ligature2: "Programming ligatures lookup-1" asciitilde equal
+LCarets2: 1 0
+Ligature2: "Programming ligatures lookup-1" equal greater
+EndChar
+
+StartChar: NameMe.1114173
+Encoding: 1114173 -1 3791
+Width: 2500
+VWidth: 1000
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+2542.1875 563.8125 m 1,0,-1
+ 2118.75 87.25 l 1,1,-1
+ 2020.3125 171.625 l 1,2,-1
+ 2118.75 279.4375 l 2,3,4
+ 2215.625 359.125 l 1,5,-1
+ 284.375 359.125 l 1,6,7
+ 381.25 279.4375 l 2,8,-1
+ 479.6875 171.625 l 1,9,-1
+ 381.25 87.25 l 1,10,-1
+ -42.1875 563.8125 l 1,11,-1
+ 381.25 1040.375 l 1,12,-1
+ 479.6875 956 l 1,13,-1
+ 381.25 849.75 l 2,14,15
+ 284.375 768.5 l 1,16,-1
+ 2215.625 768.5 l 1,17,18
+ 2118.75 849.75 l 2,19,-1
+ 2020.3125 956 l 1,20,-1
+ 2118.75 1040.375 l 1,21,-1
+ 2542.1875 563.8125 l 1,0,-1
+2295.3125 471.625 m 1,22,-1
+ 2378.125 563.8125 l 1,23,-1
+ 2295.3125 656 l 1,24,-1
+ 204.6875 656 l 1,25,-1
+ 121.875 563.8125 l 1,26,-1
+ 204.6875 471.625 l 1,27,-1
+ 2295.3125 471.625 l 1,22,-1
+EndSplineSet
+LCarets2: 2 0 0
+Ligature2: "Programming ligatures lookup-1" less equal greater
 EndChar
 EndChars
 EndSplineFont
