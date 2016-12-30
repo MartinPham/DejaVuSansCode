@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648488
-ModificationTime: 1483097974
+ModificationTime: 1483109645
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2351,7 +2351,7 @@ BeginPrivate: 0
 EndPrivate
 GridOrder2: 1
 Grid
--2048 2122.80004883 m 0
+-2048 2122.80004883 m 0,0,-1
  4096 2122.80004883 l 1024
 -2048 -227 m 0,0,-1
  4096 -227 l 1024
@@ -109180,22 +109180,23 @@ EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-88 728 m 1,0,-1
+88 728 m 5,0,-1
  3611 728 l 5,1,-1
  3611 556 l 5,2,-1
- 88 556 l 1,3,-1
- 88 728 l 1,0,-1
-88 364 m 1,4,-1
+ 88 556 l 5,3,-1
+ 88 728 l 5,0,-1
+88 364 m 5,4,-1
  3611 364 l 5,5,-1
  3611 192 l 5,6,-1
- 88 192 l 1,7,-1
- 88 364 l 1,4,-1
-88 1090 m 1,8,-1
+ 88 192 l 5,7,-1
+ 88 364 l 5,4,-1
+88 1090 m 5,8,-1
  3611 1090 l 5,9,-1
  3611 920 l 5,10,-1
- 88 920 l 1,11,-1
- 88 1090 l 1,8,-1
+ 88 920 l 5,11,-1
+ 88 1090 l 5,8,-1
 EndSplineSet
+LCarets2: 2 0 0
 MultipleSubs2: "'ccmp' Programming glyphs decomposition lookup 1" equal equal equal
 Ligature2: "Programming ligatures lookup-1" equal equal equal
 EndChar
@@ -109360,131 +109361,53 @@ EndChar
 
 StartChar: less_equal.liga
 Encoding: 1114171 -1 3784
-Width: 2466
+Width: 1587
+VWidth: 1000
 Flags: W
-TtInstrs:
-NPUSHB
- 19
- 1
- 160
- 0
- 6
- 2
- 160
- 3
- 5
- 160
- 4
- 7
- 160
- 9
- 11
- 1
- 7
- 3
- 9
- 11
-SRP0
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rnd,grey]
-MDRP[rnd,grey]
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MDRP[rp0,rnd,grey]
-MIRP[rp0,rnd,grey]
-MDRP[rp0,min,rnd,grey]
-MIRP[rp0,rnd,grey]
-MDRP[rp0,rnd,grey]
-MIRP[rnd,grey]
-IP
-MDRP[rp0,rnd,grey]
-MIRP[rnd,grey]
-IUP[y]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-2378 1143 m 5,0,-1
- 2378 1313 l 5,1,-1
- 88 725 l 5,2,-1
- 88 559 l 5,3,-1
- 2378 66.5488 l 5,4,-1
- 2378 236.549 l 5,5,-1
- 588 642 l 5,6,-1
- 2378 1143 l 5,0,-1
-2378 0 m 1,7,-1
- 2378 -170 l 1,8,-1
- 88 -170 l 1,9,-1
- 88 0 l 1,10,-1
- 2378 0 l 1,7,-1
+1351.5 132.399414062 m 5,0,-1
+ 235.5 132.399414062 l 5,1,-1
+ 235.5 -20.6005859375 l 5,2,-1
+ 1351.5 -20.6005859375 l 5,3,-1
+ 1351.5 132.399414062 l 5,0,-1
+1347.20019531 394.799804688 m 5,4,-1
+ 431.400390625 795.700195312 l 5,5,-1
+ 1347.20019531 1196.59960938 l 5,6,-1
+ 1284.5 1341 l 5,7,-1
+ 239.5 877.399414062 l 5,8,-1
+ 239.5 714 l 5,9,-1
+ 1284.5 250.399414062 l 5,10,-1
+ 1347.20019531 394.799804688 l 5,4,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" less equal
 EndChar
 
 StartChar: greater_equal.liga
 Encoding: 1114172 -1 3785
-Width: 2466
+Width: 1587
+VWidth: 1000
 Flags: W
-TtInstrs:
-NPUSHB
- 19
- 1
- 160
- 0
- 6
- 2
- 160
- 3
- 5
- 160
- 4
- 8
- 160
- 10
- 11
- 2
- 8
- 1
- 10
- 11
-SRP0
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rnd,grey]
-MDRP[rnd,grey]
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MDRP[rp0,rnd,grey]
-MIRP[rp0,rnd,grey]
-MDRP[rp0,min,rnd,grey]
-MIRP[rp0,rnd,grey]
-MDRP[rp0,rnd,grey]
-MIRP[rnd,grey]
-IP
-MDRP[rp0,rnd,grey]
-MIRP[rnd,grey]
-IUP[y]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-88 1143 m 1,0,-1
- 88 1313 l 5,1,-1
- 2378 725 l 1,2,-1
- 2378 559 l 1,3,-1
- 88 66.5488 l 1,4,-1
- 88 236.549 l 1,5,-1
- 1878 642 l 1,6,-1
- 88 1143 l 1,0,-1
-88 0 m 1,7,-1
- 2378 0 l 1,8,-1
- 2378 -170 l 1,9,-1
- 88 -170 l 1,10,-1
- 88 0 l 1,7,-1
+235.5 119 m 5,0,-1
+ 1351.5 119 l 5,1,-1
+ 1351.5 -34 l 5,2,-1
+ 235.5 -34 l 5,3,-1
+ 235.5 119 l 5,0,-1
+239.799804688 381.400390625 m 1,4,-1
+ 1155.59960938 782.30078125 l 1,5,-1
+ 239.799804688 1183.20019531 l 1,6,-1
+ 302.5 1327.60058594 l 1,7,-1
+ 1347.5 864 l 1,8,-1
+ 1347.5 700.600585938 l 1,9,-1
+ 302.5 237 l 1,10,-1
+ 239.799804688 381.400390625 l 1,4,-1
 EndSplineSet
+LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" greater equal
 EndChar
 
