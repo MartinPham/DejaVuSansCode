@@ -19,7 +19,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1470648488
-ModificationTime: 1482966505
+ModificationTime: 1483097974
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2346,22 +2346,24 @@ NameList: AGL without afii
 DisplaySize: -24
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1113153 59 18
+WinInfo: 1113120 60 18
 BeginPrivate: 0
 EndPrivate
 GridOrder2: 1
 Grid
--2048 -227 m 0
+-2048 2122.80004883 m 0
+ 4096 2122.80004883 l 1024
+-2048 -227 m 0,0,-1
  4096 -227 l 1024
--2048 1341 m 0
+-2048 1341 m 0,2,-1
  4096 1341 l 1024
-477 2580 m 0
+477 2580 m 0,4,-1
  477 -1516 l 1024
--2048 -43 m 0
+-2048 -43 m 0,6,-1
  4096 -43 l 1024
--2048 1161 m 0
+-2048 1161 m 0,8,-1
  4096 1161 l 1024
-2377 2580 m 0
+2377 2580 m 0,10,-1
  2377 -1516 l 1024
 1966 2580 m 0,0,-1
  1966 -1516 l 1024
@@ -2489,7 +2491,7 @@ Grid
  0 1901 l 1,5,-1
 EndSplineSet
 AnchorClass2: "cedilla" "'mark' cedilla" "lao-below" "'mark' Mark positioning in Lao" "lao-above" "'mark' Mark positioning in Lao" "above" "'mark' above, below" "below" "'mark' above, below" "rtl-above" "'mark' Mark Positioning in Arabic lookup 5" "Ligature rtl-above" "'mark' Mark Positioning in Arabic lookup 4" "rtl-below" "'mark' Mark Positioning in Arabic lookup 3" "Ligature rtl-below" "'mark' Mark Positioning in Arabic lookup 2" "rtl-above-mark" "'mkmk' Mark to Mark in Arabic lookup 1" "rtl-below-mark" "'mkmk' Mark to Mark in Arabic lookup 0"
-BeginChars: 1114179 3792
+BeginChars: 1114184 3795
 
 StartChar: .notdef
 Encoding: 0 -1 0
@@ -109306,68 +109308,25 @@ EndChar
 
 StartChar: less_hyphen.liga
 Encoding: 1114169 -1 3782
-Width: 2466
+Width: 2600
+VWidth: 1000
 Flags: W
-TtInstrs:
-NPUSHB
- 20
- 3
- 2
- 8
- 9
- 1
- 0
- 4
- 160
- 6
- 10
- 3
- 8
- 2
- 9
- 4
- 7
- 1
- 0
- 6
- 10
-SRP0
-MDRP[rnd,grey]
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rp0,min,rnd,grey]
-ALIGNRP
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rp0,min,rnd,grey]
-ALIGNRP
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MDRP[rp0,rnd,grey]
-MIRP[min,rnd,grey]
-IP
-IP
-MDRP[rp0,rnd,grey]
-MDRP[min,rnd,grey]
-MDRP[rnd,grey]
-MDRP[min,rnd,grey]
-IUP[y]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-88 520 m 9,0,-1
- 88 602 l 17,1,-1
- 504 1018 l 1,2,-1
- 594 928 l 1,3,-1
- 309 643 l 25,4,-1
- 2378 643 l 1,5,-1
- 2378 479 l 1,6,-1
- 309 479 l 25,7,-1
- 594 194 l 1,8,-1
- 504 104 l 1,9,-1
- 88 520 l 9,0,-1
+356.254882812 561.799804688 m 5,0,-1
+ 968.975585938 -126.400390625 l 5,1,-1
+ 1124.37597656 4.580078125 l 5,2,-1
+ 833.555664062 324.259765625 l 6,3,4
+ 744.745117188 421 744.745117188 421 671.495117188 470.780273438 c 5,5,-1
+ 2243.74511719 470.780273438 l 5,6,-1
+ 2243.74511719 652.8203125 l 5,7,-1
+ 669.274414062 652.8203125 l 5,8,9
+ 717.745117188 684 717.745117188 684 749.194335938 712.759765625 c 4,10,11
+ 778.318359375 738.62109375 778.318359375 738.62109375 833.555664062 799.33984375 c 6,12,-1
+ 1124.37597656 1119.01953125 l 5,13,-1
+ 968.975585938 1250 l 5,14,-1
+ 356.254882812 561.799804688 l 5,0,-1
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" less hyphen
@@ -109375,78 +109334,25 @@ EndChar
 
 StartChar: hyphen_greater.liga
 Encoding: 1114170 -1 3783
-Width: 2466
+Width: 2600
+VWidth: 1000
 Flags: W
-TtInstrs:
-NPUSHB
- 25
- 8
- 7
- 2
- 1
- 10
- 9
- 0
- 5
- 6
- 160
- 3
- 4
- 10
- 9
- 0
- 6
- 3
- 4
- 8
- 1
- 7
- 2
- 5
- 4
- 10
-SRP0
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rp0,min,rnd,grey]
-ALIGNRP
-SRP0
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MDRP[rp0,min,rnd,grey]
-ALIGNRP
-IUP[x]
-SVTCA[y-axis]
-SRP0
-MDRP[rp0,rnd,grey]
-ALIGNRP
-MIRP[rp0,min,rnd,grey]
-ALIGNRP
-IP
-IP
-SRP0
-MDRP[rp0,rnd,grey]
-MDRP[min,rnd,grey]
-MDRP[rp0,rnd,grey]
-MDRP[min,rnd,grey]
-IUP[y]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-2378 520 m 17,0,-1
- 1962 104 l 1,1,-1
- 1872 194 l 1,2,-1
- 2157 479 l 25,3,-1
- 88 479 l 1,4,-1
- 88 643 l 1,5,-1
- 2157 643 l 25,6,-1
- 1872 928 l 1,7,-1
- 1962 1018 l 1,8,-1
- 2378 602 l 9,9,-1
- 2378 520 l 17,0,-1
+2243.74511719 561.799804688 m 1,0,-1
+ 1631.02441406 -126.400390625 l 1,1,-1
+ 1475.62402344 4.580078125 l 1,2,-1
+ 1766.44433594 324.259765625 l 2,3,4
+ 1855.25488281 421 1855.25488281 421 1928.50488281 470.780273438 c 1,5,-1
+ 356.254882812 470.780273438 l 5,6,-1
+ 356.254882812 652.8203125 l 5,7,-1
+ 1930.72558594 652.8203125 l 1,8,9
+ 1882.25488281 684 1882.25488281 684 1850.80566406 712.759765625 c 0,10,11
+ 1821.68164062 738.62109375 1821.68164062 738.62109375 1766.44433594 799.33984375 c 2,12,-1
+ 1475.62402344 1119.01953125 l 1,13,-1
+ 1631.02441406 1250 l 1,14,-1
+ 2243.74511719 561.799804688 l 1,0,-1
 EndSplineSet
 LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" hyphen greater
@@ -109661,7 +109567,6 @@ SplineSet
  701 0 l 1,15,-1
  701 305 l 1,12,-1
 EndSplineSet
-LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" colon colon
 EndChar
 
@@ -109809,6 +109714,7 @@ SplineSet
  608 0 l 1,9,-1
  88 520 l 9,0,-1
 EndSplineSet
+LCarets2: 2 0 0
 Ligature2: "Programming ligatures lookup-1" less hyphen hyphen
 EndChar
 
@@ -109977,43 +109883,154 @@ LCarets2: 1 0
 Ligature2: "Programming ligatures lookup-1" equal greater
 EndChar
 
-StartChar: NameMe.1114173
+StartChar: spaceship.1114173
 Encoding: 1114173 -1 3791
-Width: 2500
+Width: 2550
+VWidth: 1536
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+2358 557 m 1,0,-1
+ 2358 567 l 1,1,-1
+ 1734 1161 l 1,2,-1
+ 1905 1161 l 1,3,-1
+ 2491 607 l 1,4,-1
+ 2491 517 l 1,5,-1
+ 1894 -43 l 1,6,-1
+ 1709 -43 l 1,7,-1
+ 2358 557 l 1,0,-1
+192 557 m 1,8,-1
+ 835 -43 l 1,9,-1
+ 650 -43 l 1,10,-1
+ 59 517 l 1,11,-1
+ 59 607 l 1,12,-1
+ 652 1161 l 1,13,-1
+ 824 1161 l 1,14,-1
+ 192 567 l 1,15,-1
+ 192 557 l 1,8,-1
+538 366 m 1,16,-1
+ 2027 366 l 1,17,-1
+ 2027 246 l 1,18,-1
+ 538 246 l 1,19,-1
+ 538 366 l 1,16,-1
+538 878 m 1,20,-1
+ 2027 878 l 1,21,-1
+ 2027 758 l 1,22,-1
+ 538 758 l 1,23,-1
+ 538 878 l 1,20,-1
+EndSplineSet
+LCarets2: 2 0 0
+Ligature2: "Programming ligatures lookup-1" less equal greater
+EndChar
+
+StartChar: hex.1114179
+Encoding: 1114179 -1 3792
+Width: 2233
+Flags: W
+CounterMasks: 1 1c
+LayerCount: 2
+Fore
+SplineSet
+2171.02539062 1001.97460938 m 5,0,-1
+ 1888.04980469 717.075195312 l 5,1,-1
+ 2171.02539062 428.325195312 l 5,2,-1
+ 2069 326.299804688 l 5,3,-1
+ 1784.09960938 613.125 l 5,4,-1
+ 1495.34960938 326.299804688 l 5,5,-1
+ 1393.32519531 428.325195312 l 5,6,-1
+ 1680.15039062 717.075195312 l 5,7,-1
+ 1393.32519531 1001.97460938 l 5,8,-1
+ 1495.34960938 1104 l 5,9,-1
+ 1784.09960938 819.099609375 l 5,10,-1
+ 2069 1104 l 5,11,-1
+ 2171.02539062 1001.97460938 l 5,0,-1
+477 750 m 4,12,13
+ 477 805 477 805 515.5 845 c 132,-1,14
+ 554 885 554 885 608 885 c 4,15,16
+ 664 885 664 885 704 845 c 132,-1,17
+ 744 805 744 805 744 750 c 4,18,19
+ 744 694 744 694 704.5 655 c 132,-1,20
+ 665 616 665 616 608 616 c 4,21,22
+ 552 616 552 616 514.5 654 c 132,-1,23
+ 477 692 477 692 477 750 c 4,12,13
+610 1360 m 0,24,25
+ 469 1360 469 1360 399.5 1208 c 132,-1,26
+ 330 1056 330 1056 330 745 c 4,27,28
+ 330 435 330 435 399.5 283 c 132,-1,29
+ 469 131 469 131 610 131 c 4,30,31
+ 752 131 752 131 821.5 283 c 132,-1,32
+ 891 435 891 435 891 745 c 4,33,34
+ 891 1056 891 1056 821.5 1208 c 132,-1,35
+ 752 1360 752 1360 610 1360 c 0,24,25
+570 1520 m 256,36,37
+ 849 1520 849 1520 971.5 1324 c 132,-1,38
+ 1094 1128 1094 1128 1094 745 c 4,39,40
+ 1094 363 1094 363 971.5 167 c 132,-1,41
+ 849 -29 849 -29 610 -29 c 260,42,43
+ 371 -29 371 -29 249 167 c 132,-1,44
+ 127 363 127 363 127 745 c 4,45,46
+ 127 1128 127 1128 249 1324 c 132,-1,47
+ 371 1520 371 1520 570 1520 c 256,36,37
+EndSplineSet
+LCarets2: 1 0
+Ligature2: "Programming ligatures lookup-1" zero x
+EndChar
+
+StartChar: NameMe.1114180
+Encoding: 1114180 -1 3793
+Width: 2300
 VWidth: 1000
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-2542.1875 563.8125 m 1,0,-1
- 2118.75 87.25 l 1,1,-1
- 2020.3125 171.625 l 1,2,-1
- 2118.75 279.4375 l 2,3,4
- 2215.625 359.125 l 1,5,-1
- 284.375 359.125 l 1,6,7
- 381.25 279.4375 l 2,8,-1
- 479.6875 171.625 l 1,9,-1
- 381.25 87.25 l 1,10,-1
- -42.1875 563.8125 l 1,11,-1
- 381.25 1040.375 l 1,12,-1
- 479.6875 956 l 1,13,-1
- 381.25 849.75 l 2,14,15
- 284.375 768.5 l 1,16,-1
- 2215.625 768.5 l 1,17,18
- 2118.75 849.75 l 2,19,-1
- 2020.3125 956 l 1,20,-1
- 2118.75 1040.375 l 1,21,-1
- 2542.1875 563.8125 l 1,0,-1
-2295.3125 471.625 m 1,22,-1
- 2378.125 563.8125 l 1,23,-1
- 2295.3125 656 l 1,24,-1
- 204.6875 656 l 1,25,-1
- 121.875 563.8125 l 1,26,-1
- 204.6875 471.625 l 1,27,-1
- 2295.3125 471.625 l 1,22,-1
+1160.04003906 981.240234375 m 5,0,-1
+ 350.919921875 565.240234375 l 5,1,-1
+ 1160.04003906 151.3203125 l 5,2,-1
+ 1083.08007812 -0.51953125 l 5,3,-1
+ 159.559570312 471.639648438 l 5,4,-1
+ 159.559570312 658.83984375 l 5,5,-1
+ 1081 1131 l 5,6,-1
+ 1160.04003906 981.240234375 l 5,0,-1
+2200.04003906 981.240234375 m 5,7,-1
+ 1390.91992188 565.240234375 l 5,8,-1
+ 2200.04003906 151.3203125 l 5,9,-1
+ 2123.08007812 -0.51953125 l 5,10,-1
+ 1199.55957031 471.639648438 l 5,11,-1
+ 1199.55957031 658.83984375 l 5,12,-1
+ 2121 1131 l 5,13,-1
+ 2200.04003906 981.240234375 l 5,7,-1
 EndSplineSet
-LCarets2: 2 0 0
-Ligature2: "Programming ligatures lookup-1" less equal greater
+Ligature2: "Programming ligatures lookup-1" less less
+EndChar
+
+StartChar: NameMe.1114181
+Encoding: 1114181 -1 3794
+Width: 2300
+VWidth: 1000
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+1220.95996094 982.240234375 m 5,0,-1
+ 2030.08007812 566.240234375 l 5,1,-1
+ 1220.95996094 152.3203125 l 5,2,-1
+ 1297.91992188 0.48046875 l 5,3,-1
+ 2221.44042969 472.639648438 l 5,4,-1
+ 2221.44042969 659.83984375 l 5,5,-1
+ 1300 1132 l 5,6,-1
+ 1220.95996094 982.240234375 l 5,0,-1
+180.959960938 982.240234375 m 5,7,-1
+ 990.080078125 566.240234375 l 5,8,-1
+ 180.959960938 152.3203125 l 5,9,-1
+ 257.919921875 0.48046875 l 5,10,-1
+ 1181.44042969 472.639648438 l 5,11,-1
+ 1181.44042969 659.83984375 l 5,12,-1
+ 260 1132 l 5,13,-1
+ 180.959960938 982.240234375 l 5,7,-1
+EndSplineSet
+Ligature2: "Programming ligatures lookup-1" greater greater
 EndChar
 EndChars
 EndSplineFont
