@@ -1,7 +1,7 @@
-.PHONY: all check munge full lgc ttf full-ttf lgc-ttf status dist src-dist full-dist lgc-dist norm check-harder pre-patch clean
+.PHONY: all check munge full sans lgc ttf full-ttf sans-ttf lgc-ttf status dist src-dist full-dist sans-dist lgc-dist norm check-harder pre-patch clean
 
 # Release version
-VERSION = 1.2
+VERSION = 2.37
 # Snapshot version
 SNAPSHOT =
 # Initial source directory, assumed read-only
@@ -26,9 +26,10 @@ else
 ARCHIVEVER = $(VERSION)-$(SNAPSHOT)
 endif
 
-SRCARCHIVE  = dejavu-code-$(ARCHIVEVER)
-FULLARCHIVE = dejavu-code-ttf-$(ARCHIVEVER)
-LGCARCHIVE  = dejavu-code-lgc-ttf-$(ARCHIVEVER)
+SRCARCHIVE  = dejavu-fonts-$(ARCHIVEVER)
+FULLARCHIVE = dejavu-fonts-ttf-$(ARCHIVEVER)
+SANSARCHIVE = dejavu-sans-ttf-$(ARCHIVEVER)
+LGCARCHIVE  = dejavu-lgc-fonts-ttf-$(ARCHIVEVER)
 
 ARCHIVEEXT = .zip .tar.bz2
 SUMEXT     = .zip.md5 .tar.bz2.md5 .tar.bz2.sha512
@@ -43,7 +44,7 @@ TTPOSTPROC  = $(SCRIPTSDIR)/ttpostproc.pl
 LGC         = $(SCRIPTSDIR)/lgc.pe
 UNICOVER    = $(SCRIPTSDIR)/unicover.pl
 LANGCOVER   = $(SCRIPTSDIR)/langcover.pl
-STATUS      = $(SCRIPTSDIR)/status.pl
+STATUS	    = $(SCRIPTSDIR)/status.pl
 PROBLEMS    = $(SCRIPTSDIR)/problems.pl
 NORMALIZE   = $(SCRIPTSDIR)/sfdnormalize.pl
 NARROW      = $(SCRIPTSDIR)/narrow.pe
@@ -62,12 +63,13 @@ FONTCONF     := $(wildcard $(FONTCONFDIR)/*.conf)
 FONTCONFLGC  := $(wildcard $(FONTCONFDIR)/*lgc*.conf)
 FONTCONFFULL := $(filter-out $(FONTCONFLGC), $(FONTCONF))
 
-STATICDOC := $(addprefix $(DOCDIR)/, AUTHORS BUGS LICENSE NEWS README.md sample.png)
+STATICDOC := $(addprefix $(DOCDIR)/, AUTHORS BUGS LICENSE NEWS README.md)
 STATICSRCDOC := $(addprefix $(DOCDIR)/, BUILDING)
 GENDOCFULL = unicover.txt langcover.txt status.txt
+GENDOCSANS = unicover-sans.txt langcover-sans.txt
 GENDOCLGC  = unicover-lgc.txt langcover-lgc.txt
 
-all : full lgc
+all : full sans lgc
 
 $(TMPDIR)/%.sfd: $(SRCDIR)/%.sfd
 	@echo "[1] $< => $@"
@@ -83,7 +85,7 @@ $(TMPDIR)/DejaVuLGC%.sfd: $(TMPDIR)/DejaVu%.sfd
 	sed -e 's,FontName: DejaVu,FontName: DejaVuLGC,'\
 	    -e 's,FullName: DejaVu,FullName: DejaVu LGC,'\
 	    -e 's,FamilyName: DejaVu,FamilyName: DejaVu LGC,'\
-	    -e 's,"DejaVu \(\(Sans\|Serif\)*\( Condensed\| Code\)*\( Bold\)*\( Oblique\|Italic\)*\)","DejaVu LGC \1",g' < $< > $@
+	    -e 's,"DejaVu \(\(Sans\|Serif\)*\( Condensed\| Mono\)*\( Bold\)*\( Oblique\|Italic\)*\)","DejaVu LGC \1",g' < $< > $@
 	@echo "Stripping unwanted glyphs from $@"
 	$(LGC) $@
 	touch -r $< $@
@@ -105,11 +107,13 @@ $(BUILDDIR)/status.txt: $(FULLSFD)
 	install -d $(dir $@)
 	$(STATUS) $(VERSION) $(OLDSTATUS) $(FULLSFD) > $@
 
-$(BUILDDIR)/unicover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSansCode)
+$(BUILDDIR)/unicover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSans DejaVuSerif DejaVuSansMono)
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
-	            $(TMPDIR)/DejaVuSansCode.sfd "Sans Code" > $@
+	            $(TMPDIR)/DejaVuSans.sfd "Sans" \
+	            $(TMPDIR)/DejaVuSerif.sfd "Serif" \
+	            $(TMPDIR)/DejaVuSansMono.sfd "Sans Mono" > $@
 
 $(BUILDDIR)/unicover-sans.txt: $(TMPDIR)/DejaVuSans.sfd
 	@echo "[5] => $@"
@@ -117,20 +121,24 @@ $(BUILDDIR)/unicover-sans.txt: $(TMPDIR)/DejaVuSans.sfd
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
 	            $(TMPDIR)/DejaVuSans.sfd "Sans" > $@
 
-$(BUILDDIR)/unicover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSansCode)
+$(BUILDDIR)/unicover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSans DejaVuLGCSerif DejaVuLGCSansMono)
 	@echo "[5] => $@"
 	install -d $(dir $@)
 	$(UNICOVER) $(UNICODEDATA) $(BLOCKS) \
-	            $(TMPDIR)/DejaVuLGCSansCode.sfd "Sans Code" > $@
+	            $(TMPDIR)/DejaVuLGCSans.sfd "Sans" \
+	            $(TMPDIR)/DejaVuLGCSerif.sfd "Serif" \
+	            $(TMPDIR)/DejaVuLGCSansMono.sfd "Sans Mono" > $@
 
-$(BUILDDIR)/langcover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSansCode)
+$(BUILDDIR)/langcover.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuSans DejaVuSerif DejaVuSansMono)
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
 	touch $@
 else
 	$(LANGCOVER) $(FC-LANG) \
-	             $(TMPDIR)/DejaVuSansCode.sfd "Sans Code" > $@
+	             $(TMPDIR)/DejaVuSans.sfd "Sans" \
+	             $(TMPDIR)/DejaVuSerif.sfd "Serif" \
+	             $(TMPDIR)/DejaVuSansMono.sfd "Sans Mono" > $@
 endif
 
 $(BUILDDIR)/langcover-sans.txt: $(TMPDIR)/DejaVuSans.sfd
@@ -143,14 +151,16 @@ else
 	             $(TMPDIR)/DejaVuSans.sfd "Sans" > $@
 endif
 
-$(BUILDDIR)/langcover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSansCode)
+$(BUILDDIR)/langcover-lgc.txt: $(patsubst %, $(TMPDIR)/%.sfd, DejaVuLGCSans DejaVuLGCSerif DejaVuLGCSansMono)
 	@echo "[6] => $@"
 	install -d $(dir $@)
 ifeq "$(FC-LANG)" ""
 	touch $@
 else
 	$(LANGCOVER) $(FC-LANG) \
-	             $(TMPDIR)/DejaVuLGCSansCode.sfd "Sans Code" > $@
+	             $(TMPDIR)/DejaVuLGCSans.sfd "Sans" \
+	             $(TMPDIR)/DejaVuLGCSerif.sfd "Serif" \
+	             $(TMPDIR)/DejaVuLGCSansMono.sfd "Sans Mono" > $@
 endif
 
 $(BUILDDIR)/Makefile: Makefile
@@ -183,6 +193,14 @@ $(TMPDIR)/$(FULLARCHIVE): full
 	install -p -m 0644 $(FULLTTF) $@/$(TTFDIR)
 	install -p -m 0644 $(FONTCONFFULL) $@/$(FONTCONFDIR)
 	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCFULL)) \
+	                   $(STATICDOC) $@/$(DOCDIR)
+
+$(TMPDIR)/$(SANSARCHIVE): sans
+	@echo "[8] => $@"
+	install -d -m 0755 $@/$(TTFDIR)
+	install -d -m 0755 $@/$(DOCDIR)
+	install -p -m 0644 $(BUILDDIR)/DejaVuSans.ttf $@/$(TTFDIR)
+	install -p -m 0644 $(addprefix $(BUILDDIR)/, $(GENDOCSANS)) \
 	                   $(STATICDOC) $@/$(DOCDIR)
 
 $(TMPDIR)/$(LGCARCHIVE): lgc
@@ -232,21 +250,27 @@ munge: $(NORMSFD)
 
 full : $(FULLTTF) $(addprefix $(BUILDDIR)/, $(GENDOCFULL))
 
+sans : $(addprefix $(BUILDDIR)/, DejaVuSans.ttf $(GENDOCSANS))
+
 lgc : $(LGCTTF) $(addprefix $(BUILDDIR)/, $(GENDOCLGC))
 
-ttf : full-ttf lgc-ttf
+ttf : full-ttf sans-ttf lgc-ttf
 
 full-ttf : $(FULLTTF)
+
+sans-ttf: $(BUILDDIR)/DejaVuSans.ttf
 
 lgc-ttf : $(LGCTTF)
 
 status : $(addprefix $(BUILDDIR)/, $(GENDOCFULL))
 
-dist : src-dist full-dist lgc-dist
+dist : src-dist full-dist sans-dist lgc-dist
 
 src-dist :  $(addprefix $(DISTDIR)/$(SRCARCHIVE),  $(ARCHIVEEXT) $(SUMEXT))
 
 full-dist : $(addprefix $(DISTDIR)/$(FULLARCHIVE), $(ARCHIVEEXT) $(SUMEXT))
+
+sans-dist : $(addprefix $(DISTDIR)/$(SANSARCHIVE), $(ARCHIVEEXT) $(SUMEXT))
 
 lgc-dist :  $(addprefix $(DISTDIR)/$(LGCARCHIVE),  $(ARCHIVEEXT) $(SUMEXT))
 
@@ -259,3 +283,28 @@ pre-patch : munge clean
 clean :
 	$(RM) -r $(TMPDIR) $(BUILDDIR) $(DISTDIR)
 
+condensed: $(NORMSFD)
+	$(NARROW) 90 $(TMPDIR)/DejaVuSans.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSans-Bold.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSans-Oblique.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSans-BoldOblique.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSerif.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSerif-Bold.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSerif-Italic.sfd.norm
+	$(NARROW) 90 $(TMPDIR)/DejaVuSerif-BoldItalic.sfd.norm
+	$(NORMALIZE) $(TMPDIR)/DejaVuSans.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSans-Bold.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSans-Oblique.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSans-BoldOblique.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSerif.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSerif-Bold.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSerif-Italic.sfd.norm.narrow
+	$(NORMALIZE) $(TMPDIR)/DejaVuSerif-BoldItalic.sfd.norm.narrow
+	cp $(TMPDIR)/DejaVuSans.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSansCondensed.sfd.norm
+	cp $(TMPDIR)/DejaVuSans-Bold.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSansCondensed-Bold.sfd.norm
+	cp $(TMPDIR)/DejaVuSans-Oblique.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSansCondensed-Oblique.sfd.norm
+	cp $(TMPDIR)/DejaVuSans-BoldOblique.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSansCondensed-BoldOblique.sfd.norm
+	cp $(TMPDIR)/DejaVuSerif.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSerifCondensed.sfd.norm
+	cp $(TMPDIR)/DejaVuSerif-Bold.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSerifCondensed-Bold.sfd.norm
+	cp $(TMPDIR)/DejaVuSerif-Italic.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSerifCondensed-Italic.sfd.norm
+	cp $(TMPDIR)/DejaVuSerif-BoldItalic.sfd.norm.narrow.norm $(TMPDIR)/DejaVuSerifCondensed-BoldItalic.sfd.norm
